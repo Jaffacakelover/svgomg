@@ -5,6 +5,7 @@ import Output from './ui/output.js';
 import DownloadButton from './ui/download-button.js';
 import CopyButton from './ui/copy-button.js';
 import BgFillButton from './ui/bg-fill-button.js';
+import BorderButton from './ui/border-button.js';
 import Results from './ui/results.js';
 import Settings from './ui/settings.js';
 import MainMenu from './ui/main-menu.js';

@@ -34,3 +34,12 @@ $easeInOutBack: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 .bg-dark {
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.svg-frame {
+  outline: 1px solid #ccc;
+  box-shadow: 0 4px 11px rgba(0,0,0,.1);
+}
+.svg-frame .bg-dark {
+  outline: 1px solid #666;
+  box-shadow: 0 4px 11px rgba(0,0,0,.3);
+}
