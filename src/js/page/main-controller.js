@@ -33,6 +33,7 @@ export default class MainController {
     this._toastsUi = new Toasts();
 
     const bgFillUi = new BgFillButton();
+	const borderUi = new BorderButton();
     const dropUi = new FileDrop();
     const preloaderUi = new Preloader();
     const changelogUi = new Changelog(self.version);
@@ -104,6 +105,7 @@ export default class MainController {
 
       minorActionContainer.append(
         bgFillUi.container,
+		borderUi.container,
         this._copyButtonUi.container,
       );
       actionContainer.append(this._downloadButtonUi.container);
